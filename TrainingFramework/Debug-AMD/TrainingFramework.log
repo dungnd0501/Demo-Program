@@ -1,0 +1,27 @@
+﻿Build started 27/07/2019 8:47:11 CH.
+     1>Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\TrainingFramework\TrainingFramework.vcxproj" on node 2 (Build target(s)).
+     1>Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\TrainingFramework\TrainingFramework.vcxproj" (1) is building "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\Utilities\Utilities.vcxproj" (2) on node 2 (GetTargetPath target(s)).
+       Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
+     2>Done Building Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\Utilities\Utilities.vcxproj" (GetTargetPath target(s)) -- FAILED.
+     1>Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\TrainingFramework\TrainingFramework.vcxproj" (1) is building "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\Utilities\Utilities.vcxproj" (2:2) on node 2 (GetNativeManifest target(s)).
+       Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
+     2>Done Building Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\Utilities\Utilities.vcxproj" (GetNativeManifest target(s)) -- FAILED.
+     1>Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\TrainingFramework\TrainingFramework.vcxproj" (1) is building "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\Utilities\Utilities.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+       Project file contains ToolsVersion="14.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
+     2>Done Building Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\Utilities\Utilities.vcxproj" (GetResolvedLinkLibs target(s)) -- FAILED.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\\BIN-AMD\TrainingFramework.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\\Lib\AMD libEGL.lib libGLESv2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\\BIN-AMD\TrainingFramework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\\BIN-AMD\TrainingFramework.lib" /MACHINE:X86 /SAFESEH "Debug-AMD\Application.obj"
+         "Debug-AMD\Sprite2D.obj"
+         "Debug-AMD\Camera.obj"
+         "Debug-AMD\Sprite3D.obj"
+         "Debug-AMD\Models.obj"
+         "Debug-AMD\Shaders.obj"
+         "Debug-AMD\Texture.obj"
+         "Debug-AMD\TrainingFramework.obj"
+         "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\BIN-AMD\UtilitiesD.lib"
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\BIN-AMD\UtilitiesD.lib'
+     1>Done Building Project "C:\Users\LaptopAZ\Desktop\4Head\Study\internship\Programming\TrainingFramework\TrainingFramework.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07
