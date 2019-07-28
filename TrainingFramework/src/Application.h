@@ -22,8 +22,7 @@ private:
 	
 
 	Sprite2D *	m_Sprite2D;
-	Sprite3D *	m_Plan;
-	Sprite3D *	m_Sprite3D1;
+	Sprite2D1 *	m_Sprite2D1;
 	Sprite3D *	m_Sprite3D;
 
 };
