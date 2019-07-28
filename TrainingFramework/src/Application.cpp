@@ -72,7 +72,7 @@ void Application::Init()
 
 	m_Sprite3D = new Sprite3D(m_model, m_Shaders, m_Camera, m_texture);
 	m_Sprite3D->Init();
-	m_Sprite3D->Set3DScale(Vector3(0.05, 0.05, 0.05));
+	m_Sprite3D->Set3DScale(Vector3(0.1, 0.1, 0.1));
 
 }
 
